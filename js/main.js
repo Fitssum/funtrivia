@@ -14,7 +14,7 @@ $( document ).ready(function() {
     ]
   var answer = ["Greenland", "Switzerland", "Australia", "Austria", "Belgium", "Egypt", "Brazil", "China", "India", "Germany"];
   var counter = 0;
-  var timer = 20;
+  var timer = 180;
   var remainingQuestion = question[counter].length - 1;
   var remainingTime = $("#timerInput");
 
