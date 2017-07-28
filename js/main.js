@@ -18,7 +18,7 @@ $( document ).ready(function() {
   var remainingQuestion = question[counter].length - 1;
   var remainingTime = $("#timerInput");
 
-  $(".questionsRemaining").append("<h3>Questions Remaining</h3>");
+  $(".inputRemaining").append("<h3>Questions Remaining</h3>");
 
 
   $("#nextQuestion").on("click", function() {
@@ -40,12 +40,15 @@ $( document ).ready(function() {
 
   $("#submitButton").on("click", function() {
     if ($('#answerBox').val().toLowerCase() === answer[counter].toLowerCase() ){
+      counter+=1
       console.log("correct alert activated");
       alert("Correct! Go to the next question.");
       return remainingQuestion;
     } else {
+      counter+=1
       alert ("Incorrect answer!");
       return remainingQuestion;
     }
+    input.val("");
   })
 });
