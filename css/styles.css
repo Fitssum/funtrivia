@@ -136,7 +136,7 @@ input[type="submit"] {
 }
 .timeRemaining {
   display:inline-block;
-  margin-right: 395px;
+  margin-right: 390px;
   margin-top: 20px;
   padding-bottom: 80px;
 }
@@ -150,7 +150,7 @@ input[type="submit"] {
 }
 .questionsRemaining {
   display:inline-block;
-  margin-left: 395px;
+  margin-left: 390px;
 }
 
 .inputRemaining {

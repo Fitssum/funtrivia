@@ -18,7 +18,7 @@ $( document ).ready(function() {
   var remainingQuestion = question[counter].length - 1;
   var remainingTime = $("#timerInput");
 
-  $(".inputRemaining").append("<h3>Questions Remaining</h3>");
+  $(".questionsRemaining").append("<h3>Questions Remaining</h3>");
 
 
   $("#nextQuestion").on("click", function() {
